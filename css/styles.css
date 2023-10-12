@@ -1,0 +1,63 @@
+*{
+    padding: ;
+    margin: ;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Zen Dots', sans-serif;
+    color: black;
+
+}
+
+.navbar-brand:hover{
+    color: rgb(52, 150, 193);
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Zen Dots', sans-serif;
+}
+
+.nav-link:hover{
+    color: rgb(52, 150, 193);
+}
+
+.dropdown-menu{
+    border: none;
+}
+
+.dropdown-item{
+    margin-right: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-family: 'Zen Dots', sans-serif;
+}
+
+.dropdown-item:hover{
+    color: rgb(52, 150, 193);
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(52, 150, 193);
+    margin-right: -35px;
+    font-family: 'Zen Dots', sans-serif;
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    border-radius: 60px;
+    background: rgb(52, 150, 193);
+    color: white;
+    font-weight: 500;
+}
