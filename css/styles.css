@@ -3,6 +3,7 @@
     margin: ;
 }
 
+/*Navigation Bar*/
 .navbar-brand{
     font-size: 2rem;
     font-family: 'Zen Dots', sans-serif;
@@ -60,4 +61,8 @@
     background: rgb(52, 150, 193);
     color: white;
     font-weight: 500;
+}
+
+.sm-icons{
+    font-size: 22px;
 }
