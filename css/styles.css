@@ -7,23 +7,23 @@
 .navbar-brand{
     font-size: 2rem;
     font-family: 'Zen Dots', sans-serif;
-    color: black;
+    color: rgb(52, 150, 193);
 }
 
 .navbar-brand:hover{
-    color: rgb(52, 150, 193);
+    color: pink;
 }
 
 .nav-link{
     margin-right: 10px;
     margin-left: 10px;
-    color: black;
+    color: rgb(52, 150, 193);
     text-transform: uppercase;
     font-family: 'Zen Dots', sans-serif;
 }
 
 .nav-link:hover{
-    color: rgb(52, 150, 193);
+    color: pink;
 }
 
 .dropdown-menu{
@@ -74,4 +74,13 @@
 .c-img{
     height: 100%;
     object-fit: contain;
+}
+
+/* Best Seller Section */
+.card-body{
+    font-family: 'Zen Dots', sans-serif;
+}
+
+.card{
+    border-radius: 30px;
 }
