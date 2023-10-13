@@ -4,20 +4,23 @@
 }
 
 /*Navigation Bar*/
+.navbar{
+    backdrop-filter: blur(8px);
+}
 .navbar-brand{
     font-size: 2rem;
     font-family: 'Zen Dots', sans-serif;
-    color: rgb(52, 150, 193);
+    color: orange;
 }
 
 .navbar-brand:hover{
-    color: pink;
+    color: white;
 }
 
 .nav-link{
     margin-right: 10px;
     margin-left: 10px;
-    color: rgb(52, 150, 193);
+    color: orange;
     text-transform: uppercase;
     font-family: 'Zen Dots', sans-serif;
 }
@@ -74,11 +77,12 @@
 /* Throughout All Pages */
 .section-title{
     font-family: 'Zen Dots', sans-serif;
+    color: white;
 }
 
 body{
     height: 100%;
-    background-image: url(../images/AuroraMobile.jpg);
+    background-image: url(../images/Aurora.jpg);
 }
 
 /*Carousel*/
@@ -167,18 +171,18 @@ body{
 
 /* Footer Styling*/
 footer{
-    background: rgb(52, 150, 193);
+    backdrop-filter: blur(8px);
     color: black;
     padding: 8px;
 }
 
 .media-icons{
     font-size: 1.5rem;
-    color: pink;
+    color: black;
 }
 
 .container-footer p{
     font-size: 20px;
     font-family: 'Zen Dots', sans-serif;
-    color: pink;
+    color: black;
 }
