@@ -66,13 +66,19 @@
     background-color: pink;
 }
 
-.sm-icons{
-    font-size: 22px;
+.cart-icon{
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 /* Throughout All Pages */
 .section-title{
     font-family: 'Zen Dots', sans-serif;
+}
+
+body{
+    height: 100%;
+    background-image: url(../images/AuroraMobile.jpg);
 }
 
 /*Carousel*/
@@ -157,4 +163,22 @@
 
 .btn1:hover{
     background-color: pink;
+}
+
+/* Footer Styling*/
+footer{
+    background: rgb(52, 150, 193);
+    color: black;
+    padding: 8px;
+}
+
+.media-icons{
+    font-size: 1.5rem;
+    color: pink;
+}
+
+.container-footer p{
+    font-size: 20px;
+    font-family: 'Zen Dots', sans-serif;
+    color: pink;
 }
