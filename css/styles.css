@@ -6,6 +6,7 @@
 /*Navigation Bar*/
 .navbar{
     backdrop-filter: blur(8px);
+    z-index: 10000;
 }
 .navbar-brand{
     font-size: 2rem;
@@ -34,9 +35,10 @@
 }
 
 .dropdown-item{
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 0px;
     text-transform: uppercase;
+    text-align: center;
+    color: blueviolet;
     font-family: 'Zen Dots', sans-serif;
 }
 
@@ -52,6 +54,7 @@
     text-align: center;
     border: 2px solid rgb(52, 150, 193);
     margin-right: -35px;
+    background-color: transparent;
     font-family: 'Zen Dots', sans-serif;
 }
 
@@ -76,6 +79,7 @@
 
 /* Throughout All Pages */
 .section-title{
+    text-transform: uppercase;
     font-family: 'Zen Dots', sans-serif;
     color: white;
 }
