@@ -66,6 +66,11 @@
     font-size: 22px;
 }
 
+/* Throughout All Pages */
+.section-title{
+    font-family: 'Zen Dots', sans-serif;
+}
+
 /*Carousel*/
 .c-item{
     height: 500px;
@@ -76,11 +81,32 @@
     object-fit: contain;
 }
 
-/* Best Seller Section */
-.card-body{
+/* Best Seller Card Section */
+.card-title{
     font-family: 'Zen Dots', sans-serif;
+}
+
+.card-text{
+    font-family: 'Balsamiq Sans', sans-serif;
 }
 
 .card{
     border-radius: 30px;
+}
+
+/* Why NutriVibe Accordion Section */
+.container-accordion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accordion{
+    width: 80%;
+}
+.accordion-item{
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+.accordion-button{
+    font-size: 20px;
+    font-family: 'Zen Dots', sans-serif;
 }
