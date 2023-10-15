@@ -61,35 +61,85 @@
       </nav>
     </header>
 
-    <section id="loginPage2" class="pt-md-3">
+    <section id="signUpPage" class="pt-md-3">
       <h1 class="section-title text-center"> Register</h1>
 
       <div class="container d-flex justify-content-center pt-md-3">
         <div class="card loginCard" style="width: 28rem;"> 
-          <div class="text-align--center">
-            <h5 class="card-title pt-md-3"> Login Back In!</h5>
+          <div class="text-center">
             <form class="px-4 py-3">
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-                <div class="form-check d-flex justify-content-around pt-2 mb-3">
-                  <input type="checkbox" class="form-check-input">
-                  <label for="checkboxText" class="indented-checkbox-text"> Remember Password</label>
-                  <a class="passwordHelp" href="#"> Forgot Password?</a>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="firstName" class="form-label">First Name</label>
+                  <input type="text" class="form-control text-center" id="firstName" placeholder="Enter First Name">
                 </div>
-                <button type="submit" class="btn btn-primary"> LOGIN</button>
+                <div class="col-md-6 mb-3">
+                  <label for="lastName" class="form-label">Last Name</label>
+                  <input type="text" class="form-control text-center" id="lastName" placeholder="Enter Last Name">
+                </div>
               </div>
-              <a class="dropdown-item" href="signup.html"> New around here? Sign up</a>
+              <div class="mb-2">
+                <label for="emailAddress" class="form-label">Email address</label>
+                <input type="email" class="form-control text-center" id="emailAddress" placeholder="Enter Email Address" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control text-center" id="password" placeholder="Enter Password">
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Confirm Password</label>
+                <input type="password" class="form-control text-center" id="password" placeholder="Enter Password Again">
+              </div>
+              <div class="mb-3">
+                <label for="refer" class="refer-selection mb-2"> Heard Us From Where?</label>
+                <select class="form-select text-center" aria-label="Default select example">
+                  <option selected>Open this select menu</option>
+                  <option value="ad">Advertisement</option>
+                  <option value="ig">Instagram</option>
+                  <option value="fb">Facebook</option>
+                  <option value="x">Twitter</option>
+                  <option value="tt">TikTok</option>
+                  <option value="rat">Gym Rat</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary"> SIGN UP !</button>
             </form>
           </div>
         </div>
       </div>
     </section>
+    <div class="pt-md-5"></div>
+    <footer>
+      <div id="nutrivibe-newsletter" class="newsletter-section">
+        <section>
+          <div class="newsletter_section text-center">
+            <h2> Subscribe</h2>
+              <p> Join our global community and embrace a healthier you, delivered straight to your world, 365 days a year!</p>
+            <div class="newsletter">
+              <form class="d-flex justify-content-center">
+                <input class="email px-2" type="email" placeholder="Enter Email" aria-label="Email">
+                 <button class="btn1" type="submit"><i class="bi bi-envelope-plus-fill"></i></button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="container-footer pt-md-3">
+        <div class="d-flex justify-content-around">
+          <div class="media-icons">
+            <i class="bi bi-instagram mx-4"></i>
+            <i class="bi bi-tiktok mx-4"></i>
+            <i class="bi bi-twitter mx-4"></i>
+            <i class="bi bi-snapchat mx-4"></i>
+          </div>
+          <p> &copy; 2023 NutriVibe 365</p>
+        </div>
+      </div>
+    </footer>
+
+
 
 
 
