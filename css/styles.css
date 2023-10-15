@@ -190,3 +190,23 @@ footer{
     font-family: 'Zen Dots', sans-serif;
     color: black;
 }
+
+
+.resize {
+    width: 350px;
+    height: auto;
+}
+
+.resize {
+    width: 250px;
+    height: auto;
+}
+
+.indented-checkbox-text{
+    margin-left: -2em;
+}
+
+.loginCard{
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8px);
+}
