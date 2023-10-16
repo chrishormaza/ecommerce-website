@@ -15,23 +15,23 @@ html{
 .navbar-brand{
     font-size: 2rem;
     font-family: 'Zen Dots', sans-serif;
-    color: orange;
+    color: black;
 }
 
 .navbar-brand:hover{
-    color: white;
+    color: rgb(52, 150, 193);
 }
 
 .nav-link{
     margin-right: 10px;
     margin-left: 10px;
-    color: orange;
+    color: black;
     text-transform: uppercase;
     font-family: 'Zen Dots', sans-serif;
 }
 
 .nav-link:hover{
-    color: pink;
+    color: rgb(52, 150, 193);
 }
 
 .dropdown-menu{
@@ -42,7 +42,7 @@ html{
     margin: 0px;
     text-transform: uppercase;
     text-align: center;
-    color: blueviolet;
+    color: black;
     font-family: 'Zen Dots', sans-serif;
 }
 
@@ -56,7 +56,7 @@ html{
     border-radius: 60px;
     outline: none;
     text-align: center;
-    border: 2px solid rgb(52, 150, 193);
+    border: 2px solid black;
     margin-right: -35px;
     background-color: transparent;
     font-family: 'Zen Dots', sans-serif;
@@ -68,12 +68,12 @@ html{
     outline: none;
     border: none;
     border-radius: 60px;
-    background: rgb(52, 150, 193);
+    background: black;
     color: white;
 }
 
 .btn0:hover{
-    background-color: pink;
+    background-color: rgb(52, 150, 193);
 }
 
 .cart-icon{
@@ -85,7 +85,7 @@ html{
 .section-title{
     text-transform: uppercase;
     font-family: 'Zen Dots', sans-serif;
-    color: white;
+    color: black;
 }
 
 body{
@@ -93,7 +93,7 @@ body{
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    background-image: url(../images/Aurora.jpg);
+    background-image: url(../images/subtle-prism.png);
 }
 
 /*Carousel*/
@@ -109,10 +109,12 @@ body{
 /* Top Picks Card Section */
 .card-title{
     font-family: 'Zen Dots', sans-serif;
+    color: white;
 }
 
 .card-text{
     font-family: 'Balsamiq Sans', sans-serif;
+    color: white;
 }
 
 .card{
@@ -211,9 +213,8 @@ footer{
     margin-left: -2em;
 }
 
-.loginCard{
+.card{
     background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(8px);
 }
-
 
